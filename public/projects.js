@@ -11,7 +11,7 @@ const projects = [
     title: "Gym-Buddy",
     description:
       "A gym management system built with the intention of simplifying day-to-day operations and activities.",
-    demo: "https://jade-beijinho-9f67b9.netlify.app/",
+    demo: "https://gym-buddy-demo.netlify.app/",
     repo: "https://github.com/RakimKai/gym-buddy-frontend?tab=readme-ov-file",
   },
   {
@@ -24,7 +24,7 @@ const projects = [
     title: "Artist Roadmap",
     description:
       "Simple project using Spotify API. Challenged myself to create engaging UI with Tailwind due to project's simple data management.",
-    demo: "https://dazzling-banoffee-e6c78d.netlify.app/",
+    demo: "https://artistroadmap.netlify.app/",
     repo: "https://github.com/RakimKai/Artist-Roadmap",
   },
 ];
