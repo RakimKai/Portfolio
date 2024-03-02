@@ -10,20 +10,19 @@ const projects = [
   {
     title: "Gym-Buddy",
     description:
-      "A gym management system built with the intention of simplifying day-to-day operations and activities.",
+      "Gym management system built with the intention of simplifying day-to-day operations and activities.",
     demo: "https://gym-buddy-demo.netlify.app/",
     repo: "https://github.com/RakimKai/gym-buddy-frontend?tab=readme-ov-file",
   },
   {
     title: "Gym-Buddy API",
     description:
-      "API for Gym-Buddy web app. First big project where I switched to PHP (Laravel) from C#. It was a smooth transition due to Laravel's excellent documentation.",
+      "API for Gym-Buddy web app. First project where I switched to PHP (Laravel) from C#. It was a smooth transition due to Laravel's excellent documentation.",
     repo: "https://github.com/RakimKai/gym-buddy-api",
   },
   {
     title: "Artist Roadmap",
-    description:
-      "Simple project using Spotify API. Challenged myself to create engaging UI with Tailwind due to project's simple data management.",
+    description: "A simple project I made using Spotify API.",
     demo: "https://artistroadmap.netlify.app/",
     repo: "https://github.com/RakimKai/Artist-Roadmap",
   },
