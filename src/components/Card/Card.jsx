@@ -51,11 +51,11 @@ const Card = ({
                     </a>
                   </p>
                   <a
-                    href={"/public/CV - Ahmed Elshiekh.pdf"}
-                    download={"CV - Ahmed Elshiekh.pdf"}
+                    href={"https://ahmedelshiekh-cv.tiiny.site/"}
+                    target="_blank"
                     className="bg-secondary border-secondary hover:bg-secondary/80 text-primary p-3 text-xl  transition-all ease-in-out duration-150 rounded"
                   >
-                    Download my resume
+                    View my resume
                   </a>
                 </div>
               )}

@@ -2,7 +2,7 @@ const Project = ({ title, description, demo, repo }) => {
   return (
     <>
       <div className="flex flex-col  pt-1 w-full animate-slideInRight opacity-0 ">
-        <h2 className="xl:text-4xl lg:text-3xl  text-xl md:text-start px-10 text-center font-semibold text-secondary">
+        <h2 className="xl:text-4xl lg:text-3xl  text-xl md:text-start px-10 text-center font-medium text-secondary">
           {title}
         </h2>
         <div className="border-l-2 border-r-2 md:border-l-0 mt-3  border-secondary">

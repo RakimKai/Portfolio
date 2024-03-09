@@ -5,7 +5,6 @@ const Arrow = () => {
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 34.192567129518835 242.33023294725308"
       width="34.192567129518835"
-      height="inherit"
     >
       <defs></defs>
       <rect

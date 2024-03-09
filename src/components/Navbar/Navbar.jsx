@@ -13,9 +13,9 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className={`flex  justify-center 2xl:text-2xl sm:text-xl text-lg font-medium 2xl:mt-20 mt-10 animate-slideInTop opacity-0 transition-all ease-in-out duration-100 sticky top-0 z-30 ${
+        className={`flex  justify-center  sm:text-xl text-base font-medium xl:mt-14 mt-10 animate-slideInTop opacity-0 transition-all ease-in-out duration-100 sticky top-0  ${
           isSticky
-            ? "bg-primary border-b-4 border-thirdary text-thirdary p-2 "
+            ? "bg-primary border-b-2 border-thirdary sm:text-base text-thirdary p-2 text-sm  z-40"
             : ""
         }`}
       >

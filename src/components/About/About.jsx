@@ -23,7 +23,7 @@ const About = () => {
   }, []);
   return (
     <>
-      <section id="about" className="  pb-[100px] pt-[100px]" ref={elementRef}>
+      <section id="about" className="pt-[100px]" ref={elementRef}>
         <div className="flex justify-center 2xl:w-2/3 w-full flex-wrap  m-auto 2xl:gap-12 gap-2  items-center">
           <Card
             animate={isVisible && "slideInNoDelay"}
@@ -61,7 +61,7 @@ const About = () => {
           />
         </div>
       </section>
-      <div className="flex justify-center items-center h-[200px] 2xl:h-[400px]">
+      <div className="flex justify-center items-center h-[200px] xl:h-[400px]">
         <Arrow />
       </div>
     </>

@@ -99,10 +99,10 @@ const Projects = () => {
           }  h-1 rounded-xl`}
         />
       </div>
-      <div className="flex md:py-20 flex-col h-1/2 md:h-full   flex-wrap  md:flex-nowrap justify-center w-full  items-center 2xl:justify-between md:justify-between md:flex-row 2xl:flex-row  md:px-20    2xl:px-0  2xl:pt-36">
+      <div className="flex md:py-20 flex-col h-1/2 md:h-full  flex-wrap  md:flex-nowrap justify-center w-full  items-center xl:justify-between md:justify-between md:flex-row 2xl:flex-row  md:px-20    2xl:px-0  ">
         <div
           ref={projectsRef}
-          className={`justify-center h-1/6 md:h-full pb-12  gap-5  flex-wrap md:flex-col md:text-xl items-center flex 2xl:pl-[400px] md:pl-[100px] md:items-start   2xl:gap-2 md:gap-2  md:w-1/2 w-full  overflow-hidden font-semibold  xl:text-3xl  text-base  text-thirdary ${
+          className={`justify-center font-semibold h-1/6 md:h-full pb-12    gap-5  flex-wrap md:flex-col md:text-xl items-center flex xl:pl-[300px] md:pl-[100px] md:items-start   2xl:gap-2 md:gap-2  md:w-1/2 w-full  overflow-hidden  xl:text-3xl  text-base  text-thirdary ${
             isVisibleProjects
               ? "animate-slideInNoDelay"
               : "opacity-0 translate-y-10"
@@ -111,7 +111,7 @@ const Projects = () => {
           <h3
             onClick={() => setProject(0)}
             className={`cursor-pointer ${
-              first ? "text-secondary " : "hover:text-secondary"
+              first ? "text-secondary  " : "hover:text-secondary"
             }   transition-all ease-in-out duration-200`}
           >
             .workNet
