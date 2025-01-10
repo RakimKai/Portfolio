@@ -3,7 +3,6 @@ const projects = [
     title: "Work-Net",
     description:
       "A web app connecting job seekers with employers. Frontend by my friend, backend by me.",
-    demo: "https://web.p2328.app.fit.ba/login",
     repo: "https://github.com/RakimKai/worknet-api",
   },
 
