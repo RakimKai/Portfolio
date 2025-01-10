@@ -50,13 +50,6 @@ const Card = ({
                       {github}
                     </a>
                   </p>
-                  <a
-                    href={"https://ahmedelshiekh-cv.tiiny.site/"}
-                    target="_blank"
-                    className="bg-secondary border-secondary hover:bg-secondary/80 text-primary p-3 text-xl  transition-all ease-in-out duration-150 rounded"
-                  >
-                    View my resume
-                  </a>
                 </div>
               )}
             </div>
