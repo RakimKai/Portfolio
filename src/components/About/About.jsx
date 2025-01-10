@@ -30,7 +30,7 @@ const About = () => {
             frontContent={"tech stack"}
             content={
               <div>
-                <span className="text-secondary  ">Backend:</span> C#, .NET,
+                <span className="text-secondary  ">Backend:</span>Java, C#, .NET,
                 Laravel
                 <br />
                 <span className="text-secondary ">Frontend:</span> HTML, CSS,
